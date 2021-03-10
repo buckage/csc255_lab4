@@ -19,7 +19,7 @@ class Driver{
 
 	void printHeap(string& description,Heap& heap){
 		fout << description << endl;
-		for (int i = 0; i <= heap.size(); i++){
+		for (int i = 1; i <= heap.size(); i++){
 				fout << heap.getElement(i) << " ";
 		}
 		fout << "\n\n";
@@ -71,10 +71,10 @@ class Driver{
 
 		string heapString4 = "Heap after deleteMin ";
 
-		while (heap.size() > 0){
-			heap.deleteMin();
-			printHeap(heapString4, heap);
-		}
+//		while (heap.size() > 0){
+//			heap.deleteMin();
+//			printHeap(heapString4, heap);
+//		}
 	}
 
 
@@ -108,35 +108,5 @@ int main(){
 		string suffix = to_string(i) + ".txt";
 		d.testFile("in" + suffix, "out" + suffix);
 	}
-//	cout << "hello is anyone there?" << endl;
-//	Heap h;
-//	cout << "heap instantiation works" << endl;
-//	ifstream fin ("in1.txt");
-//	int num;
-//	int ctr = 0;
-//	h.insert(ctr);
-//	while (fin >> num){
-//		ctr += 1;
-//		h.insert(num);
-//	}
-//	h.switchLastTwo();
-//
-//	cout << "Size of heap is: " <<h.size() << ".  Size of heap should be: " << ctr << endl;
-//
-//	cout << "elements of the heap are: " << endl;
-//
-//	for (int i = 1; i <= h.size(); i++){
-//		cout << h.getElement(i) << " ";
-//	}
-//
-//	h.deleteMin();
-//
-//	cout << "\n\nSize of heap is: " <<h.size() << ".  Size of heap should be: " << ctr << endl;
-//
-//	cout << "elements of the heap are: " << endl;
-//
-//	for (int i = 1; i <= h.size(); i++){
-//		cout << h.getElement(i) << " ";
-//	}
 }
 

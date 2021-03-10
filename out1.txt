@@ -1,167 +1,80 @@
 Heap after inserting 44
-0 44 
+44 
 
 Heap after inserting 43
-0 43 44 
+43 44 
 
 Heap after inserting 42
-0 42 44 43 
+42 44 43 
 
 Heap after inserting 40
-0 40 42 43 44 
+40 42 43 44 
 
 Heap after inserting 36
-0 36 40 43 44 42 
+36 40 43 44 42 
 
 Heap after inserting 45
-0 36 40 43 44 42 45 
+36 40 43 44 42 45 
 
 Heap after inserting 32
-0 32 40 36 44 42 45 43 
+32 40 36 44 42 45 43 
 
 Heap after inserting 31
-0 31 32 36 40 42 45 43 44 
+31 32 36 40 42 45 43 44 
 
 Heap after inserting 28
-0 28 31 36 32 42 45 43 44 40 
+28 31 36 32 42 45 43 44 40 
 
 Heap after inserting 27
-0 27 28 36 32 31 45 43 44 40 42 
+27 28 36 32 31 45 43 44 40 42 
 
 Heap after inserting 10
-0 10 27 36 32 28 45 43 44 40 42 31 
+10 27 36 32 28 45 43 44 40 42 31 
 
 Heap after inserting 8
-0 8 27 10 32 28 36 43 44 40 42 31 45 
+8 27 10 32 28 36 43 44 40 42 31 45 
 
 Heap after inserting 7
-0 7 27 8 32 28 10 43 44 40 42 31 45 36 
+7 27 8 32 28 10 43 44 40 42 31 45 36 
 
 Heap after inserting 6
-0 6 27 7 32 28 10 8 44 40 42 31 45 36 43 
+6 27 7 32 28 10 8 44 40 42 31 45 36 43 
 
 Heap after inserting 5
-0 5 27 6 32 28 10 7 44 40 42 31 45 36 43 8 
+5 27 6 32 28 10 7 44 40 42 31 45 36 43 8 
 
 Heap after inserting 4
-0 4 5 6 27 28 10 7 32 40 42 31 45 36 43 8 44 
+4 5 6 27 28 10 7 32 40 42 31 45 36 43 8 44 
 
 Heap after inserting 2
-0 2 4 6 5 28 10 7 27 40 42 31 45 36 43 8 44 32 
+2 4 6 5 28 10 7 27 40 42 31 45 36 43 8 44 32 
 
 Heap after inserting 1
-0 1 2 6 4 28 10 7 27 5 42 31 45 36 43 8 44 32 40 
+1 2 6 4 28 10 7 27 5 42 31 45 36 43 8 44 32 40 
 
 Heap after inserting 17
-0 1 2 6 4 28 10 7 27 5 42 31 45 36 43 8 44 32 40 17 
+1 2 6 4 28 10 7 27 5 42 31 45 36 43 8 44 32 40 17 
 
 Heap after inserting 9
-0 1 2 6 4 9 10 7 27 5 28 31 45 36 43 8 44 32 40 17 42 
+1 2 6 4 9 10 7 27 5 28 31 45 36 43 8 44 32 40 17 42 
 
 Heap after inserting 21
-0 1 2 6 4 9 10 7 27 5 21 31 45 36 43 8 44 32 40 17 42 28 
+1 2 6 4 9 10 7 27 5 21 31 45 36 43 8 44 32 40 17 42 28 
 
 Heap after inserting 17
-0 1 2 6 4 9 10 7 27 5 21 31 45 36 43 8 44 32 40 17 42 28 17 
+1 2 6 4 9 10 7 27 5 21 31 45 36 43 8 44 32 40 17 42 28 17 
 
 Heap after inserting 3
-0 1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 
+1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 
 
 Heap 
-0 1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 
+1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 
 
 Insert 31
 Heap after insert 31 
-0 1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 31 
+1 2 6 4 3 10 7 27 5 21 9 45 36 43 8 44 32 40 17 42 28 17 31 31 
 
 Insert 14
 Heap after insert 14 
-0 1 2 6 4 3 10 7 27 5 21 9 14 36 43 8 44 32 40 17 42 28 17 31 31 45 
-
-Heap after deleteMin 
-0 2 3 6 4 9 10 7 27 5 21 17 14 36 43 8 44 32 40 17 42 28 31 31 45 
-
-Heap after deleteMin 
-0 3 4 6 5 9 10 7 27 17 21 17 14 36 43 8 44 32 40 42 28 31 31 45 
-
-Heap after deleteMin 
-0 4 5 6 17 9 10 7 27 40 21 17 14 36 43 8 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 5 9 6 17 17 10 7 27 40 21 45 14 36 43 8 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 6 9 7 17 17 10 8 27 40 21 45 14 36 43 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 7 9 8 17 17 10 43 27 40 21 45 14 36 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 8 9 10 17 17 14 43 27 40 21 45 36 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 9 17 10 17 21 14 43 27 40 45 45 36 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 10 17 14 17 21 36 43 27 40 45 45 44 32 42 28 31 31 45 
-
-Heap after deleteMin 
-0 14 17 36 17 21 32 43 27 40 45 45 44 42 28 31 31 45 
-
-Heap after deleteMin 
-0 17 17 36 27 21 32 43 31 40 45 45 44 42 28 31 45 
-
-Heap after deleteMin 
-0 17 21 36 27 45 32 43 31 40 45 44 42 28 31 45 
-
-Heap after deleteMin 
-0 21 27 36 31 45 32 43 45 40 45 44 42 28 31 45 
-
-Heap after deleteMin 
-0 27 31 36 40 45 32 43 45 45 44 42 28 31 45 
-
-Heap after deleteMin 
-0 31 40 36 45 45 32 43 45 44 42 28 31 45 
-
-Heap after deleteMin 
-0 36 40 32 45 45 31 43 45 44 42 28 45 
-
-Heap after deleteMin 
-0 32 40 31 45 45 45 43 45 44 42 28 45 
-
-Heap after deleteMin 
-0 31 40 43 45 45 45 45 44 42 28 45 
-
-Heap after deleteMin 
-0 40 45 43 45 28 45 45 44 42 45 
-
-Heap after deleteMin 
-0 43 45 45 45 28 45 44 42 45 
-
-Heap after deleteMin 
-0 45 45 44 45 28 45 42 45 
-
-Heap after deleteMin 
-0 44 45 42 45 28 45 45 
-
-Heap after deleteMin 
-0 42 45 45 45 28 45 
-
-Heap after deleteMin 
-0 45 45 45 45 28 
-
-Heap after deleteMin 
-0 45 45 45 28 
-
-Heap after deleteMin 
-0 45 45 28 
-
-Heap after deleteMin 
-0 28 45 
-
-Heap after deleteMin 
-0 45 
-
-Heap after deleteMin 
-0 
+1 2 6 4 3 10 7 27 5 21 9 14 36 43 8 44 32 40 17 42 28 17 31 31 45 
 
